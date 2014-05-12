@@ -39,8 +39,10 @@ $fullnamesender = fullname($from);
 $fullnamerecipient = fullname($to);
 
 $messagetext .= get_string('name', 'local_simple_contact_form').": ".$fullnamesender."\n";
-$messagetext .= get_string('city', 'local_simple_contact_form').": ".$city."\n";
-$messagetext .= get_string('state', 'local_simple_contact_form').": ".$state."\n";
+if ($CFG->enable_city_state) {
+	$messagetext .= get_string('city', 'local_simple_contact_form').": ".$city."\n";
+	$messagetext .= get_string('state', 'local_simple_contact_form').": ".$state."\n";
+}
 $messagetext .= get_string('subject', 'local_simple_contact_form').": ".$subject."\n";
 $messagetext .= get_string('message', 'local_simple_contact_form').": ".$message."\n";
 
