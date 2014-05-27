@@ -1,4 +1,6 @@
-moodle_contact
+Moodle Simple Contact Form
 ==============
 
-Plugin to contact form on Moodle
+This plugin offers a contact form page for Moodle.
+
+You can put a menu link to "/local/simple_contact_form/index.php" using "custommenuitems" theme configurations.
