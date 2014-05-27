@@ -1,29 +1,37 @@
 <?php
+
 /**
  * Strings for component 'simple_contact_form', language 'en'.
  *
  * @package   simple_contact_form
- * @copyright 2014 Rodrigo Saraiva  {@link http://moodle.com}
+ * @copyright 2014 Rodrigo Saraiva  {@link http://moodle.com}, Carlos Eduardo Alves {@link http://github.com/kmiksi}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 // Admin settings language
 $string['pluginname'] = 'Simple Contact Form';
 $string['contact_form'] = 'Simple Contact Form';
-$string['enable_form_name'] = 'Enable Contact Form'; 
+$string['enable_form_name'] = 'Enable Contact Form';
 $string['enable_form_description'] = 'Enable contact form to users and visitors.';
 $string['email_form_name'] = 'Receiver E-mail';
 $string['email_form_description'] = 'E-mail to receive the messages sent by users and visitors.';
 $string['name_form_name'] = 'Receiver Name';
 $string['name_form_description'] = 'Receiver name to receive the messages sent by users and visitors.';
-$string['enable_city_state_name'] = 'Enable City and State';
-$string['enable_city_state_description'] = 'Enable city and state fields.';
+$string['enable_city'] = 'Enable City';
+$string['cityes_list'] = 'Cityes list';
+$string['enable_city_description'] = 'Enable selection of a city';
+$string['cityes_list_description'] = 'You must input a city per row';
+$string['enable_region'] = 'Enable Region';
+$string['region_list'] = 'Region list';
+$string['enable_region_description'] = 'Enable selection of a state/province/region';
+$string['region_list_description'] = 'You must input a state/province/region per row';
 
 // Form fields language
 $string['contact'] = 'Contact Form';
 $string['name'] = 'Name';
 $string['email'] = 'E-mail';
 $string['city'] = 'City';
+$string['option_another'] = 'Another option';
+$string['region'] = 'State, province or region';
 $string['state'] = 'State';
 $string['subject'] = 'Subject';
 $string['message'] = 'Message';
@@ -38,35 +46,7 @@ $string['02_subject'] = 'Questions about registration';
 $string['03_subject'] = 'Suggestions, criticisms or opinions';
 $string['04_subject'] = 'Other';
 
-// State select (You can add more states, but you need to add the new in array on file simple_contact_form.php)
 $string['none_state'] = '--';
-$string['01_state'] = 'AC';
-$string['02_state'] = 'AL';
-$string['03_state'] = 'AP';
-$string['04_state'] = 'AM';
-$string['05_state'] = 'BA';
-$string['06_state'] = 'CE';
-$string['07_state'] = 'DF';
-$string['08_state'] = 'ES';
-$string['09_state'] = 'GO';
-$string['10_state'] = 'MA';
-$string['11_state'] = 'MT';
-$string['12_state'] = 'MS';
-$string['13_state'] = 'MG';
-$string['14_state'] = 'PR';
-$string['15_state'] = 'PB';
-$string['16_state'] = 'PA';
-$string['17_state'] = 'PE';
-$string['18_state'] = 'PI';
-$string['19_state'] = 'RJ';
-$string['20_state'] = 'RN';
-$string['21_state'] = 'RS';
-$string['22_state'] = 'RO';
-$string['23_state'] = 'RR';
-$string['24_state'] = 'SC';
-$string['25_state'] = 'SE';
-$string['26_state'] = 'SP';
-$string['27_state'] = 'TO';
 
 // validation language
 $string['requiredname'] = 'Please, enter your name.';
