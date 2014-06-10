@@ -44,7 +44,9 @@ The link must point to `MOODLE_URL/local/simple_contact_form/`.
 
 1. Put a banner or text info inside an HTML block in your Moodle
 2. Customize your theme, like put the link inside header or footer
-2. **[Recommended]** put in the Moodle menu bar. Access Administration > "Appearance" > "Themes" > "Theme settings" section. Inside the "Custom menu items" option, you must put a line `Contact|/local/simple_contact_form/`
+2. **[Recommended]** put in the Moodle menu bar. Access Administration > "Appearance" > "Themes" > "Theme settings" section. Inside the "Custom menu items" option, you must put a line like this:
+
+`Contact|/local/simple_contact_form/`
 
 
 
