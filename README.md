@@ -23,16 +23,16 @@ Features
 
 Download
 --------
-1. Download the plugin code from https://github.com/rodrigosaraiva/simple_contact_form and put into /local/simple_contact_form/
+1. Download the plugin code from https://github.com/rodrigosaraiva/moodle-local_simple_contact_form and put into /local/simple_contact_form/
 2. Use git:
 
-`git clone git://github.com/rodrigosaraiva/simple_contact_form.git /path/to/moodle/local/simple_contact_form`
+`git clone git://github.com/rodrigosaraiva/moodle-local_simple_contact_form.git /path/to/moodle/local/simple_contact_form`
 
 
 Installation
 ------------
 - Add the plugin code into folder `/local/simple_contact_form/`.
-- Link to contact page (`/local/simple_contact_form/`). See "[Linking to page](https://github.com/rodrigosaraiva/simple_contact_form/blob/master/README.md#linking-to-page)".
+- Link to contact page (`/local/simple_contact_form/`). See "[Linking to page](https://github.com/rodrigosaraiva/moodle-local_simple_contact_form/#linking-to-page)".
 - Configuration is available through Administration > "Plugins" > "Local plugins" > "Simple Contact Form".
 
 
@@ -52,4 +52,4 @@ About
 ----
 * [Rodrigo Saraiva](https://github.com/rodrigosaraiva) (creator, coder)
 * [Carlos Eduardo Alves](https://github.com/kmiksi) (improvements, coder)
-* [Simple Contact Form Moodle plugin](https://github.com/rodrigosaraiva/simple_contact_form) project at GitHub.com
+* [Simple Contact Form Moodle plugin](https://github.com/rodrigosaraiva/moodle-local_simple_contact_form) project at GitHub.com
