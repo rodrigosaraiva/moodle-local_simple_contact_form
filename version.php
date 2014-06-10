@@ -9,16 +9,18 @@
  */
 $plugin->version = 2014052700;   // The (date) version of this plugin
 /*
- * Moodle 1.9 = 2007101509
- * Moodle 2.0 = 2010112400
- * Moodle 2.1 = 2011070100
- * Moodle 2.2 = 2011120500
+ * Moodle versions to requires
+ * Moodle 2.7 = 2014041100
+ * Moodle 2.6 = 2013101800
+ * Moodle 2.5 = 2013040500
+ * Moodle 2.4 = 2012110900
  * Moodle 2.3 = 2012062500
- * Moodle 2.4 = 2012120300
- * Moodle 2.5 = 2013051400
- * Moodle 2.6 = 2013111800
- * Moodle 2.7 = 2014051200
+ * Moodle 2.2 = 2012062500
+ * Moodle 2.1 = 2011070100
+ * Moodle 2.0 = 2010112400
+ * Moodle 1.9 = 2007101509
  * @see http://docs.moodle.org/dev/Moodle_Versions
+ * @see https://moodle.org/plugins/registerplugin.php
  */
-$plugin->requires = 2013051400; // Requires this Moodle version
-$plugin->maturity = MATURITY_RC; //MATURITY_ALPHA, MATURITY_BETA, MATURITY_RC, MATURITY_STABLE
+$plugin->requires = 2013040500; // Requires this Moodle version
+$plugin->maturity = MATURITY_STABLE; //MATURITY_ALPHA, MATURITY_BETA, MATURITY_RC, MATURITY_STABLE
