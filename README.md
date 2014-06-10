@@ -36,7 +36,7 @@ Installation
 - Configuration is available through Administration > "Plugins" > "Local plugins" > "Simple Contact Form".
 
 
-Linkin to page
+Linking to page
 --------------
 Here we show methods to tell users where is the contact page.
 
