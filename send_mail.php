@@ -57,5 +57,6 @@ if (email_to_user($to, $from, $subjecttext, $messagetext)) {
     add_to_log(0, 'simple_contact_form', 'send mail', '', 'To: ' . $fullnamerecipient . '; From: ' . $fullnamesender . '; Subject: ' . $subjecttext);
 } else {
     add_to_log(0, 'simple_contact_form', 'send mail failure', '', 'To: ' . $fullnamerecipient . '; From: ' . $fullnamesender . '; Subject:' . $subjecttext);
-    echo "Error in local/simple_contact_form/send_mail.php: Could not send out mail from $from->firstname to $to->firstname ($to->email)\n";
+    //echo "Error in local/simple_contact_form/send_mail.php: Could not send out mail from $from->firstname to $to->firstname ($to->email)\n";
+    throw new moodle_exception('messagenotsent', 'local_simple_contact_form');
 }
