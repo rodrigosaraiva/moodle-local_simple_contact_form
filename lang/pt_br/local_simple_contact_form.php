@@ -37,6 +37,7 @@ $string['subject'] = 'Assunto';
 $string['message'] = 'Mensagem';
 $string['canceled'] = 'Cancelado.';
 $string['messagesent'] = 'Obrigado por sua mensagem. <br /> Ela foi enviada e será analisada o mais rápido possível.';
+$string['messagenotsent'] = 'Devido a problemas técnicos a sua mensagem não foi enviada.';
 $string['send'] = 'Enviar mensagem';
 
 // Subject select (You can add more subjects, but you need to add the new in array on file simple_contact_form.php)
