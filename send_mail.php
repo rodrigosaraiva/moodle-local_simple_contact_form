@@ -16,6 +16,7 @@ $from->maildisplay = true;
 $from->mailformat = 1;
 
 $to = new object;
+$to->id = 1;
 $to->firstname = $CFG->name_form;
 $to->lastname = '';
 $to->email = $CFG->email_form;
