@@ -36,7 +36,7 @@ $string['state'] = 'Estado';
 $string['subject'] = 'Assunto';
 $string['message'] = 'Mensagem';
 $string['canceled'] = 'Cancelado.';
-$string['messagesent'] = 'Obrigado por sua mensagem. <br /> Ela foi enviada e será analisada o mais rápido possível.';
+$string['messagesent'] = 'Agradecemos por sua mensagem. <br /> Ela foi enviada e será analisada o mais rápido possível.';
 $string['messagenotsent'] = 'Devido a problemas técnicos a sua mensagem não foi enviada.';
 $string['send'] = 'Enviar mensagem';
 
