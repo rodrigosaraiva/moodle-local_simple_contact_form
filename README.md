@@ -53,5 +53,5 @@ The link must point to `MOODLE_URL/local/simple_contact_form/`.
 About
 ----
 * [Rodrigo Saraiva](https://github.com/rodrigosaraiva) (creator, coder)
-* [Carlos Eduardo Alves](https://github.com/kmiksi) (improvements, coder)
+* [Carlos Eduardo Alves](https://github.com/kmiksi) (maintainer, coder)
 * [Simple Contact Form Moodle plugin](https://github.com/rodrigosaraiva/moodle-local_simple_contact_form) project at GitHub.com
