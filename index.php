@@ -28,8 +28,13 @@ if ($mform->is_cancelled()) {
     redirect($returnurl, get_string('canceled', 'local_simple_contact_form'));
 } else if ($fromform = $mform->get_data()) {
     include_once('send_mail.php');
-    $returnurl = new moodle_url('/');
-    redirect($returnurl, get_string('messagesent', 'local_simple_contact_form'));
+    echo $OUTPUT->header();
+    echo $OUTPUT->box_start('generalbox centerpara boxwidthnormal boxaligncenter');
+    echo "<h3>" . get_string('thanks', 'core') . ", " . fullname($from) . "</h3>";
+    echo "<p>" . get_string('messagesent', 'local_simple_contact_form') . "</p>";
+    echo $OUTPUT->single_button("/", get_string('sitehome', 'core'));
+    echo $OUTPUT->box_end();
+    echo $OUTPUT->footer();
 } else {
     echo $OUTPUT->header();
     $mform->display();
