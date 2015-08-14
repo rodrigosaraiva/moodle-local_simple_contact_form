@@ -8,6 +8,7 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 function mountSelect($name, $label, $no_option, $elements) {
+    
     $select = HTML_QuickForm::createElement('select', $name, $label);
     $select->addOption($no_option, null, array('disabled' => 'disabled'));
     $selected = '';
@@ -22,11 +23,14 @@ function mountSelect($name, $label, $no_option, $elements) {
     }
     $select->setSelected($selected);
     return $select;
+    
 }
 
 function redirectIndex($setting) {
+    
     if (!$setting) {
         $returnurl = new moodle_url('/index.php');
         redirect($returnurl);
     }
+    
 }
