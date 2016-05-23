@@ -24,6 +24,10 @@ $string['enable_region'] = 'Enable Region';
 $string['region_list'] = 'Region list';
 $string['enable_region_description'] = 'Enable selection of a state/province/region';
 $string['region_list_description'] = 'You must input a state/province/region per row';
+$string['enable_subject'] = 'Enable Subject';
+$string['subject_list'] = 'Subject list';
+$string['enable_subject_description'] = 'Enable selection of subject';
+$string['subject_list_description'] = 'You must input a subject per row';
 
 // Form fields language
 $string['contact'] = 'Contact Form';
@@ -40,13 +44,8 @@ $string['messagesent'] = 'Thank you for your message.<br />It has been sent and 
 $string['messagenotsent'] = 'Due to tecnical problems, your message is not send.';
 $string['send'] = 'Send message';
 
-// Subject select (You can add more subjects, but you need to add the new in array on file simple_contact_form.php)
+// Select
 $string['none_subject'] = '-- Select a subject --';
-$string['01_subject'] = 'Login problems';
-$string['02_subject'] = 'Questions about registration';
-$string['03_subject'] = 'Suggestions, criticisms or opinions';
-$string['04_subject'] = 'Other';
-
 $string['none_state'] = '--';
 
 // validation language

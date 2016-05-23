@@ -24,6 +24,10 @@ $string['enable_region'] = 'Habilitar estado';
 $string['region_list'] = 'Lista de estados';
 $string['enable_region_description'] = 'Habilita a seleção de estados';
 $string['region_list_description'] = 'Você deve inserir um estado por linha';
+$string['enable_subject'] = 'Habilitar assunto';
+$string['subject_list'] = 'Lista de assuntos';
+$string['enable_subject_description'] = 'Habilita a seleção de assunto';
+$string['subject_list_description'] = 'Você deve inserir um assunto por linha';
 
 // Form language
 $string['contact'] = 'Formulário de Contato';
@@ -40,13 +44,8 @@ $string['messagesent'] = 'Agradecemos por sua mensagem. <br /> Ela foi enviada e
 $string['messagenotsent'] = 'Devido a problemas técnicos a sua mensagem não foi enviada.';
 $string['send'] = 'Enviar mensagem';
 
-// Subject select (You can add more subjects, but you need to add the new in array on file simple_contact_form.php)
+// Select
 $string['none_subject'] = '-- Selecione um assunto --';
-$string['01_subject'] = 'Dificuldades de login';
-$string['02_subject'] = 'Dúvidas sobre inscrição';
-$string['03_subject'] = 'Sugestões, críticas ou opiniões';
-$string['04_subject'] = 'Outros';
-
 $string['none_state'] = '--';
 
 // validation language

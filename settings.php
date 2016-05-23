@@ -17,4 +17,6 @@ if ($hassiteconfig) {
     $settings->add(new admin_setting_configtextarea('cityes_list', get_string('cityes_list', 'local_simple_contact_form'), get_string('cityes_list_description', 'local_simple_contact_form'), '', PARAM_TEXT));
     $settings->add(new admin_setting_configcheckbox('enable_region', get_string('enable_region', 'local_simple_contact_form'), get_string('enable_region_description', 'local_simple_contact_form'), 0));
     $settings->add(new admin_setting_configtextarea('region_list', get_string('region_list', 'local_simple_contact_form'), get_string('region_list_description', 'local_simple_contact_form'), '', PARAM_TEXT));
+    $settings->add(new admin_setting_configcheckbox('enable_subject', get_string('enable_subject', 'local_simple_contact_form'), get_string('enable_subject_description', 'local_simple_contact_form'), 0));
+    $settings->add(new admin_setting_configtextarea('subject_list', get_string('subject_list', 'local_simple_contact_form'), get_string('subject_list_description', 'local_simple_contact_form'), '', PARAM_TEXT));
 }
