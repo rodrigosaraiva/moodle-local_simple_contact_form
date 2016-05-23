@@ -7,6 +7,7 @@
  * @copyright 2014 Rodrigo Saraiva  {@link http://moodle.com}, Carlos Eduardo Alves {@link http://github.com/kmiksi}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+$plugin->component = 'local_simple_contact_form';  // To check on upgrade, that module sits in correct place
 $plugin->version = 2014052700;   // The (date) version of this plugin
 /*
  * Moodle versions to requires

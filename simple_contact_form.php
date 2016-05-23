@@ -63,9 +63,17 @@ class simple_contact_form extends moodleform {
             }
         }
 
-        $asubjects = array(get_string('01_subject', 'local_simple_contact_form'), get_string('02_subject', 'local_simple_contact_form'), get_string('03_subject', 'local_simple_contact_form'), get_string('04_subject', 'local_simple_contact_form'));
-        $mform->addElement(mountSelect('f_subject', get_string('subject', 'local_simple_contact_form'), get_string('none_subject', 'local_simple_contact_form'), $asubjects));
-        $mform->addRule('f_subject', get_string('requiredsubject', 'local_simple_contact_form'), 'required', null, 'client');
+        if (!empty($CFG->enable_subject)) {
+            if (empty($CFG->subject_list)) {
+                $attributes = array('size' => '40');
+                $mform->addElement('text', 'f_subject', get_string('subject', 'local_simple_contact_form'), $attributes);
+                $mform->addRule('f_subject', get_string('requiredsubject', 'local_simple_contact_form'), 'required', null, 'client');
+            } else {
+                $asubjects = array_map('trim', explode("\n", $CFG->subject_list));
+                $mform->addElement(mountSelect('f_subject', get_string('subject', 'local_simple_contact_form'), get_string('none_subject', 'local_simple_contact_form'), $asubjects));
+                $mform->addRule('f_subject', get_string('requiredsubject', 'local_simple_contact_form'), 'required', null, 'client');
+            }
+        }
 
         $attributes = array('wrap' => 'virtual', 'rows' => '10', 'cols' => '50');
         $mform->addElement('textarea', 'f_message', get_string('message', 'local_simple_contact_form'), $attributes);
